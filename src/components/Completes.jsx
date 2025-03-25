@@ -11,8 +11,9 @@ function Completes(props) {
     query.set("description", CompletedTasks.description);
     navigate(`/task?${query.toString()}`);
   }
+
   return (
-    <h1>
+    <div>
       <ul className="space-y-4 p-6 bg-slate-200 rounded-md shadow">
         <h2 className="text-xl text-blue-950 font-bold justify-center flex gap-1">
           Feita
@@ -20,7 +21,7 @@ function Completes(props) {
             <CheckIcon />
           </div>
         </h2>
-        {props.Completedtasks.map((task) => (
+        {props.completedTasks.map((task) => (
           <li key={task.id} className="flex gap-2">
             <button
               className={`bg-blue-300 w-full text-left text-white p-2 rounded-md flex ${
@@ -41,7 +42,7 @@ function Completes(props) {
           </li>
         ))}
       </ul>
-    </h1>
+    </div>
   );
 }
 

@@ -52,7 +52,7 @@ function App() {
           </div>
           <div className="w-full md:w-[400px]">
             <Completes
-              Completedtasks={completedTasks}
+              completedTasks={completedTasks}
               onCompletedTaskClick={onCompletedTaskClick}
               onDeleteClick={onDeleteClick}
             />

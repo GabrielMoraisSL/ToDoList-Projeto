@@ -13,7 +13,6 @@ function Tasks(props) {
   }
   return (
     <div>
-      <h1>
         <ul className="space-y-4 p-6 bg-slate-200 rounded-md shadow">
           <h2 className="text-xl text-blue-950 font-bold justify-center flex gap-1">
             A fazer
@@ -40,7 +39,6 @@ function Tasks(props) {
             </li>
           ))}
         </ul>
-      </h1>
     </div>
   );
 }
