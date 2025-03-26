@@ -257,7 +257,7 @@ export default App;
 ### Componentes Estruturais
 
 Esses componentes completam os pricipais para seu funcionamento, como: 
-- `ButtonCompletes.jsx` e `ButtonCompletes.jsx`: Gerenciam o funcionamento dos botões.
+- `ButtonCompletes.jsx` e `ButtonTasks.jsx`: Gerenciam o funcionamento dos botões.
 - `Input.jsx`: Gerencia o funcionamento dos inputs.
 - `store.js`: Proprio do Zustand, ele cria um hook que gerencia o estado global da aplicação. Ele define funções para adicionar, excluir e mover tarefas entre listas, garantindo que o estado seja atualizado corretamente.
 - `Title.jsx`: Gerencia o funcionamento dos titúlos.
