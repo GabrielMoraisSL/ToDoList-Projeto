@@ -36,6 +36,14 @@ Este projeto é um gerenciador de tarefas desenvolvido em React, permitindo aos 
     📄index.css
     📄main.jsx
 ```
+## Pré-Requisitos
+Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
+
+1. Visual Studio Code instalado (editor de código recomendado) `https://code.visualstudio.com`
+
+2. Node.js instalado `https://nodejs.org/`
+
+3. Git instalado `https://git-scm.com/downloads`
 
 ## Como Instalar e Executar
 
