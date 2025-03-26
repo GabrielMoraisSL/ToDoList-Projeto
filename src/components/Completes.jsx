@@ -1,6 +1,6 @@
 import { CheckIcon, NotebookTextIcon, TrashIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import Button from "./ButtonCompletes";
+import Button from "./buttons/ButtonCompletes";
 
 function Completes(props) {
   const navigate = useNavigate();

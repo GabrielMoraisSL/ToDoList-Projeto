@@ -1,6 +1,6 @@
 import { NotebookTextIcon, TrashIcon, ClockIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import Button from "./ButtonTasks";
+import Button from "./buttons/ButtonTasks";
 
 function Tasks(props) {
   const navigate = useNavigate();

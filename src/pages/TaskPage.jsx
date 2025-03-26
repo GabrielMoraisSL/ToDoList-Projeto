@@ -1,5 +1,5 @@
 import { useSearchParams } from "react-router-dom";
-import Title from "../components/Title";
+import Title from "../components/title/Title";
 import { ChevronLeftIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
