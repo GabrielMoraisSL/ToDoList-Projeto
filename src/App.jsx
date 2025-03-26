@@ -41,7 +41,6 @@ function App() {
     <div className="w-screen h-screen bg-blue-500 flex flex-col items-center p-6 overflow-auto">
       <div>
         <Title>Gerenciador de Tarefas</Title>
-        <div className="">
           <div className="flex flex-col md:flex-row justify-center p-5 gap-4 h-full container">
             <div className="w-full md:w-[400px] space-y-4">
               <AddTasks onAddTaskSubmit={onAddTaskSubmit} />
@@ -59,7 +58,6 @@ function App() {
                 onCompletedTaskClick={onCompletedTaskClick}
                 onDeleteClick={onDeleteClick}
               />
-            </div>
           </div>
         </div>
       </div>
