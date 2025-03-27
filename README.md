@@ -47,16 +47,18 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
 ## Como Instalar e Executar
 
+Abra o Visual Studio, em seguida pressione `Ctrl + J` e siga as instruções em seu terminal:
+
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/GabrielMoraisSL/ToDoList-Projeto.git
    ```
 
 2. Acesse o diretório do projeto:
 
    ```bash
-   cd nome-do-repositorio
+   cd ToDoList-Projeto
    ```
 
 3. Instale as dependências:
